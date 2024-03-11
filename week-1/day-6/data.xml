@@ -1,0 +1,6 @@
+<task>
+    <id>1</id>
+    <taskName>Do the dishes</taskName>
+    <completed>false</completed>
+    <date>2019-01-01</date>
+</task>
