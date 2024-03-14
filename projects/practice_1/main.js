@@ -20,7 +20,7 @@ guessForm.addEventListener("submit",function(e){
     }
     else{
         
-        Message.innerHTML = `Sorry, the number was ${RANDOM_NUMBER}. Try again!`;
+        Message.innerHTML = `Sorry! The number was ${RANDOM_NUMBER} and you guessed ${userGuess}`
         Message.classList.add("text-red-500")
 
     }
