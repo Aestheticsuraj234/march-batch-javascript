@@ -62,26 +62,25 @@ const add = (a,b)=>{
 
 // *forEach()
 
-
-// let r = numbers.forEach((value)=>{
-//         return 2*value;
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// numbers.forEach((value)=>{
+//         console.log( 2*value);
 // })
 
-// console.log(r) // undefined undefined
 
 
 // *map();
 
-// let newArray = numbers.map((value)=>{
-//     return value*2;
-// })
+let newArray = numbers.map((value)=>{
+    return value*2;
+})
 
-// console.log("New Array",newArray);
-// console.log("Actual Array",numbers);
+console.log("New Array",newArray);
+console.log("Actual Array",numbers);
 
 
 // *filter();
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 
 // let greaterTHAN3 = numbers.filter((value , index ,array)=>{
 //         return value >= 3;

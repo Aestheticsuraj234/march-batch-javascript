@@ -7,16 +7,22 @@
 console.log(1);
 console.log(2);
 console.log(3);
-console.log(4);
+console.log(4)
 console.log(5);
 console.log(6);
 console.log(7);
 */
 
 // For Loop
-for(let i=0; i<=10; i++){
-    console.log(i);
+for(let i=0;6<=5; 5++){
+    // console.log(0);
+    // console.log(1);
+    // console.log(2);
+    // console.log(3);
+    // console.log(4);
+    // console.log(5);
 }
+
 
 // For...In Loop
 let obj = {
@@ -37,8 +43,8 @@ for(let value of greet){
 }
 
 // While Loop
-let i = 0;
-while(i<=10){
-    console.log(i);
-    i++;
+let number = 1;
+while(number<=10){
+    console.log(number);
+    number++;
 }

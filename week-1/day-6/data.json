@@ -1,6 +1,36 @@
 {
-    "id":"1",
-    "task":"Do the dishes",
-    "completed":false,
-    "date":"2019-01-01"
-}
+    "myNestedSingleOBJ_Json":{
+        "name" : "John", 
+        "age" : 25,
+        "city" : "New York",
+        "state":"NY",
+        "isPolluted": true,
+        "isSmoker": false,
+        "mySecondNestedObj":{
+            "name" : "John", 
+            "age" : 25,
+            "city" : "New York",
+            "state":"NY",
+            "isPolluted": true,
+            "isSmoker": false,
+            "myArray":["hello","world","how","are","you"]
+        }
+    },
+    "myNestedSingleOBJ_Json":{
+        "name" : "John", 
+        "age" : 25,
+        "city" : "New York",
+        "state":"NY",
+        "isPolluted": true,
+        "isSmoker": false,
+        "mySecondNestedObj":{
+            "name" : "John", 
+            "age" : 25,
+            "city" : "New York",
+            "state":"NY",
+            "isPolluted": true,
+            "isSmoker": false,
+            "myArray":["hello","world","how","are","you"]
+        }
+    }
+    }
