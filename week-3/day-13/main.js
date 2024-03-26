@@ -37,18 +37,17 @@
 // fetchWeatherData(displayWeather); // This will display the weather after 2 seconds
 
 
-function fetchWeatherData(displayWeather) {
-  
-    setTimeout(function(){
-        const weatherData = { temperature: 25, condition: "Sunny" };
-        displayWeather(weatherData);
-    },3000)
-  
+function fetchWeatherData(callback) {
+    setTimeout(function () {
+        const WeatherData = { temperature: 25, condition: "Sunny" }
+        callback(WeatherData)
+    }, 3000);
+
 }
 
-
-function displayWeather(weatherData) {
-    console.log(`The temperature is ${weatherData.temperature}°C and it's ${weatherData.condition}.`);
+function ShowData(data) {
+    console.log(`The temperature is ${data.temperature}°C and it's ${data.condition}.`);
 }
 
-fetchWeatherData(displayWeather)
+fetchWeatherData(ShowData);
+
