@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#eee] dark:bg-black flex relative justify-center items-center space-y-5 h-full">
+
+    <div class="h-[30rem] w-[30rem] border-1  rounded-md shadow-md p-10 mt-10 flex flex-col justify-center items-center">
+
+        <div
+            class="h-[20rem] w-[20rem] flex-col  border-8 border-l-indigo-500 shadow-md  p-10 flex justify-center items-center ">
+
+            <p class="text-large font-bold text-zinc-800 italic">
+                "Technology made large populations possible; large populations now make technology indispensable"
+            </p>
+
+
+            <span class="ml-auto mt-2">
+                - Joseph Wood Krutch
+            </span>
+
+
+        </div>
+
+        <div
+        class="w-full flex justify-center gap-10 space-x-5 items-center mt-5"
+        >
+            <button
+            class="bg-rose-500 text-white px-5 py-2 rounded-md"
+            id="new-quote"
+            >
+                Copy Quote
+            </button>
+
+            <button
+            class="bg-indigo-500 text-white px-5 py-2 rounded-md"
+            id="new-quote"
+            >
+                New Quote
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
